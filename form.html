@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<link type="text/css" rel="stylesheet" href="form.css"/>
+		<title>MY FIRST FORM</title>
+	</head>
+	<body>
+		<div id="header">
+			<p id="name">Rizal Khoirul Umam</p>
+			<a href="rizalkhoirulumam@gmail.com"><p id="email">rizalkhoirulumam@gmail.com</p></a>
+		</div>
+		<div id="fb">
+		<form action="register.php" method="post">
+			<div class="input text">
+				<label for="nama_lengkap">Nama Lengkap</label>
+				<input id="nama_lengkap" type="text" />
+			</div>
+			<div class="input text">
+				<label for="nama_panggilan">Nama Panggilan</label>
+				<input id="nama_panggilan" type="text" />
+			</div>
+			<div class="input text">
+				<label for="ttl">TTL</label>
+				<input id="ttl" type="text" />
+			</div>
+			<div class="input text">
+				<label for="alamat">Alamat</label>
+				<textarea id="alamat"></textarea>
+			</div>
+			<div class="input radio">
+				<label for="jk">Jenis Kelamin</label>
+				<input id="lk" type="radio" name="sex" value="laki-laki"/> Laki-laki
+				<input id="pr" type="radio" name="sex" value="perempuan"/> Perempuan
+			</div>
+			<div class="input chekcbox">
+				<label for="bahasa">Bahasa yang Dikuasai</label>
+				<input type="checkbox" id="bahasa" value="indonesia"> Indonesia
+				<input type="checkbox" id="bahasa" value="inggris"> Inggris
+				<input type="checkbox" id="bahasa" value="jerman"> Jerman
+				<input type="checkbox" id="bahasa" value="arab"> Arab
+				<input type="checkbox" id="bahasa" value="jepang"> Jepang
+				<input type="checkbox" id="bahasa" value="belanda"> Belanda
+			</div>
+			<div class="input listbox">
+				<label for="agama">Agama</label>
+				<select name="agama">
+					<option value="opsi" selected>Pilih Satu Agama</option>
+					<option value="islam">Islam</option>
+					<option value="kristen">Kristen</option>
+					<option value="katolik" >Katolik</option>
+					<option value="hindu">Hindu</option>
+					<option value="budha">Budha</option>
+					<option value="konghucu">Konghucu</option>
+				</select>
+			</div>
+			<div class="input textarea">
+				<label for="komentar">Komentar</label>
+				<textarea id="komentar"></textarea>
+			</div>
+			<div class="input password">
+				<label for="password">Password</label>
+				<input id="password" type="password" />
+			</div>
+			<div class="input submit">
+				<input type="submit" value="kirim" />
+			</div>
+		</form>
+		</div>
+		<div id="footer">
+			<p>PTI 2011 D, Jurusan Teknik Elektro, Fakuktas Teknik, Universitas Negeri Malang</p>
+		</div>
+	</body>
+</html>

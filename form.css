@@ -1,0 +1,87 @@
+        form{
+            background: #eee;
+            padding: 5px;
+        }
+		
+		#header {
+			z-index: 1;
+			position: relative;
+			margin-top: -20px;
+			height: 60px;
+			background-color: #668284;
+			margin-bottom: 10px;
+		}
+		
+	   form div.input{
+            background: #dfebff;
+            padding: 10px;
+        }
+        form div.input:hover{
+            background: #eef4ff;
+        }
+        form div.text input:hover{
+            border: 1px solid #000;
+        }
+        form div.text input:focus{
+            border: 1px solid #f00;
+        }
+        form div.input label{
+            float: left;
+            width: 200px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        form div.input label:hover{
+            color: #f00;
+        }
+        form div.text input{
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        form div.submit input{
+            background: #b0d0ff;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            margin-left: 125px;
+        }
+        form div.submit input:hover{
+            background: #b7efaa;
+        }
+		
+		div {
+			position: relatif;
+		}
+		
+		#name {
+			float:left;
+			margin-left: 5px;
+			padding-top: 5px;
+			font-size: 16px;
+			font-family: Verdana, sans-serif;
+			color: #ffffff;
+		}
+		
+		#email{
+			float:right;
+			margin-right: 5px;
+			padding-top: 5px;
+			font-size: 16px;
+			font-family: Verdana, sans-serif;
+			color: #ffffff;
+		}
+		
+		#footer {
+			position: relative;
+			height: 50px;
+			background-color: #668284;
+			clear: both;
+			font-family: Verdana, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			color: #ffffff;
+		}
+
+		#footer p {
+			position: relative;
+			padding-top: 5px;
+		}
